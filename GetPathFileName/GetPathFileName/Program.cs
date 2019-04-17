@@ -8,7 +8,7 @@ namespace GetPathFileName
         public static string FileName = "";
 
         public static void Main(string[] args)
-        {
+        {  
             bool isContinute = true;
             WriteMessage("结束程序请输入1，默认排除文件名：min.js,jquery");
             WriteMessage("请输入要获取文件名的路径：");
